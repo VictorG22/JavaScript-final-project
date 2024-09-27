@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Game Search Platform | GameInformerDupe.com</title>
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Game Search Platform | GameFinder.com</title>
+    <link rel="stylesheet" href="./style.css" />
     <script src="./index.js" defer></script>
-    <script src="https://kit.fontawesome.com/0290978bda.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
-    <nav class="container">
-        <div class="row">
-            <div class="header__logo">
-                <figure class="logo__img">
-                    <img src="./assets/logo.svg" alt="">
-                    <h1 class="logo__name">G.I.D.</h1>
-                </figure>
-            </div>
+    <script
+      src="https://kit.fontawesome.com/0290978bda.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="row navigation-bar">
+        <div class="logo">
+          <figure class="logo__img--container">
+            <img src="./assets/logo.svg" alt="" class="logo__img" />
+          </figure>
+          <h1 class="logo__name blue">Game Finder</h1>
         </div>
+        <ul class="nav__links">
+          <li><a href="./index.html" class="nav__link blue">Home</a></li>
+          <li><a href="./games.html" class="nav__link light-purple">Search a Game</a></li>
+          <li>
+            <a href="#" class="nav__link">
+              <button class="nav__btn">Contact</button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <header></header>
-    
-</body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="landing-page">
+            <h1 class="section__title landing__title light-purple">
+              The biggest video game library USA can offer
+            </h1>
+            <h2 class="section__sub-title landing__sub-title blue">
+              FIND OUT WHAT GAMES HAVE BEEN RELEASED WITH
+              <span class="light-purple">GAME FINDER</span>
+            </h2>
+            <div class="search">
+              <input class="search__bar" type="text" placeholder="Search by Name, Year, or Genre" />
+              <button class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <img src="./assets/landing-img.svg" alt="" class="landing__img">
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
